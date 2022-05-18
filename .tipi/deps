@@ -1,0 +1,6 @@
+{
+  "unittest-cpp/unittest-cpp" : { "@" : "v2.0.0", 
+    "x:linux": ["UnitTest++/Win32/*"],
+    "x:macos": ["UnitTest++/Win32/*"], 
+    "x:windows": ["UnitTest++/Posix/*"] }
+}
