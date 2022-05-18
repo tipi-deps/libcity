@@ -43,10 +43,10 @@ class Point
     void setY(double const& coordinate);
     void setZ(double const& coordinate);
 
-    bool operator==(Point const& second);
-    bool operator!=(Point const& second);
-    bool operator<(Point const& second);
-    bool operator>(Point const& second);
+    bool operator==(Point const& second) const;
+    bool operator!=(Point const& second) const;
+    bool operator<(Point const& second) const;
+    bool operator>(Point const& second) const;
 
     Point& operator+=(Vector const& difference);
     Point  operator+(Vector const& difference) const;
